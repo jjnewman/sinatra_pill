@@ -1,6 +1,12 @@
 require 'sinatra'
 
+# get '/' do
+#   'hello there!'
+# end
+
 get '/' do
-  'hello!'
+  "<div>
+  <img src='http://bit.ly/1eze8aE'>
+  </div>"
 end
 
